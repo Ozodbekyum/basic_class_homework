@@ -7,7 +7,7 @@ create an object named "p1" whose name is "Anvar"
 create an object named "p2" whose name is "Shavkat"
 */
 class Person {
-  String name = 'komil';
+  String name = 'ali';
   Person(String l) {}
 }
 
