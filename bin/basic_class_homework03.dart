@@ -7,9 +7,9 @@ create an object named "person" whose name is "Ali"
 */
 
 void main() {
-  Person Ali = Person();
+  Person name = Person();
 }
 
 class Person {
-  String name = 'Person';
+  String name = 'Ali';
 }
