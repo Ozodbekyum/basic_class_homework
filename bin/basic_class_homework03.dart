@@ -7,9 +7,19 @@ create an object named "person" whose name is "Ali"
 */
 class Person {
   String name = 'ali';
-  Person(name) {}
+
+  Person(String n) {
+    this.name = n;
+  }
 }
+
+// String asd(String name) {
+//   return 'hi ' + name;
+// }
 
 void main() {
   Person person = Person('Ali');
+  print(person.name);
+
+  // print(asd('asdf'));
 }
